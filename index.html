@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Title -->
+    <title>Skriby - Gaming Content and Portfolio</title>
+
+    <!-- Basic Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Skriby">
+    <meta name="description" content="Explore SkribyRPG's gaming content and stay connected via YouTube, Instagram, and more.">
+    <meta name="keywords" content="Gaming, Content, Portfolio, YouTube, Twitch, Steam">
+
+    <!-- Open Graph & Twitter Meta Tags -->
+    <meta property="og:title" content="Skriby - Gaming Content and Portfolio">
+    <meta property="og:description" content="Explore SkribyRPG's gaming content and stay connected via YouTube, Instagram, and more.">
+    <meta name="twitter:title" content="Skriby - Gaming Content and Portfolio">
+    <meta name="twitter:description" content="Explore SkribyRPG's gaming content and stay connected via YouTube, Instagram, and more.">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/css/Loading Screen.css">
+    <link rel="stylesheet" href="./assets/css/Header.css">
+    <link rel="stylesheet" href="./assets/css/ScrollBar.css">
+    <link rel="stylesheet" href="./assets/css/Footer.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" id="btw">
+
+    <!-- JavaScript -->
+    <script src="./assets/css/js/Run.js"></script>
+    <script src="./assets/css/js/Loading.js"></script>
+    <script src="./assets/css/js/Form Send.js"></script>
+    <!--  <script src="./assets/css/js/Get IP.js"></script>-->
+    <script src="./assets/css/js/schema.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loadingScreen">
+        <div class="spinner"></div>
+        <h2>Loading...</h2>
+    </div>
+    <!-- Header section -->  
+    <div id="Header">
+        <div class="Header-Coil">
+            <div class="Header-Channel">
+                <a href="https://www.youtube.com/@SkribyRPG"><nav> SkribyRPG </nav></a>
+            </div>
+            <div class="Header-One"><a href=""></a></div>
+            <div class="Header-Navigation">
+                <a href="#"><nav> Home </nav></a>
+                <a href="https://hub.skriby.xyz"><nav> Hub </nav></a>
+                <a href="https://terms.skriby.xyz/"><nav> Terms </nav></a>
+                
+                <!-- Dropdown menu -->
+                <div class="dropdown">
+                    <a href="#">Item 1</a>
+                    <a href="#">Item 2</a>
+                    <a href="#">Item 3</a>
+                </div>
+            </div>
+    
+            <!-- Menu Button for Mobile Devices -->
+            <div class="menu-button" onclick="toggleDropdown()">☰</div>
+        </div>
+    </div>
+    
+    <script>
+        // JavaScript to toggle the dropdown visibility
+        function toggleDropdown() {
+            var dropdown = document.querySelector('#Header .Header-Coil .dropdown');
+            dropdown.classList.toggle('show');
+        }
+    </script>
+    <!-- First section -->
+    <div id="First-Coil">
+        <h1> Pagina principala, bine a-ti venit si p-aici. </h1>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+           <div class="carousel-inner">
+             <div class="carousel-item active">
+               <img src="https://wallpapers.com/images/hd/1920x1080-pictures-zog2vma3qpmt2o9l.jpg" class="d-block w-100">
+             </div>
+             <div class="carousel-item">
+               <img src="https://wallpapers.com/images/hd/1920x1080-aesthetic-glrfk0ntspz3tvxg.jpg" class="d-block w-100">
+             </div>
+             <div class="carousel-item">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxq3wtY0z6ADaepGsD5QL0yGFmyxJNO6JWAQ&s" class="d-block w-100">
+             </div>
+           </div>
+         </div>
+    </div>
+    <!-- Second section -->
+    <div id="Second-Coil">
+        <div class="Second-Coil-Bin">
+            <h1>O scurta poveste despre inceputurile mele pe aceasta platforma</h1>
+            <div class="Second-Coil-Content">
+                <p> Inceputurile mele pe aceasta platforma au inceput acum multi ani, facand ce-a ce-mi place cel mai mult, fara sa simti noptile nedormite, invatand tot felul de lucruri legate de editatare si nu numai. La inceput am facut vlog-uri, iar de atunci mi-am dat seama ca-mi place sa fac asta cu adevarat si nu ma vad facand altceva cu atat de multa placere. Dupa m-am apucat de postat videoclipuri cu diferite jocuri, dar aveam un calculator si mai slab de cat acesta cu mult, si totusi nici acum n-am cel mai top pc, la modul ca filmam de pe calculator si editam pe telefon. Dar dupa un timp mi-am schimbat calculatorul iar apucandu-ma de youtube cu si mai multe jocuri putin mai populare, ajungand sa fac live-uri cu samp, iar intr-un timp scurt sa ma stie lumea. Intrand oameni destul de mari de pe vremea respectiva, cativa dintre ei sunt andukul, hades, cristi si alti. La momentul actual numai joc samp din cauza numarului foarte mic de juctori. M-am reapucat cu live-uri pe rage, in special ogland, dar joc si alte jocuri singleplayer cat si multiplayer. </p>
+            </div>
+        </div>
+    </div>
+    <!-- Second section -->
+    <div id="Three-Coil">
+        <div class="Three-Coil-Bin">
+            <h1> Un formular in caz ca doresti sa colaboram in viitorul apropiat. </h1>
+            <div class="container mt-5">
+                    <h2 class="mb-4 text-center">Trimite un mesaj</h2>
+                    <form id="discordForm">
+                        <div class="mb-3">
+                            <label for="nume" class="form-label">Nume</label>
+                            <input type="text" class="form-control" id="nume" name="nume" required placeholder="Completati cu numele dvs.">
+                        </div>
+            
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required placeholder="Completati cu emailul dvs.">  
+                        </div>
+            
+                        <div class="mb-3">
+                            <label for="mesaj" class="form-label">Mesaj</label>
+                            <textarea class="form-control" id="mesaj" name="mesaj" rows="4" required placeholder="Completati in ce context doriti sa colaboram."></textarea>
+                        </div>
+            
+                        <button type="submit" class="btn btn-primary w-100">Trimite</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    <!-- Footer section -->
+    <footer>
+        <main id="Footer">
+            <div id="Footer-Coil">
+                <h2> Copyright by Skriby</h2>
+                <h2>All rights copyrighted <script>document.write(new Date().getFullYear());</script> ©</h2>
+            </div>
+        </main>
+    </footer>
+</body>
+</html>

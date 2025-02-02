@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+* {
+    background-color: #444;
+    cursor: crosshair;
+    font-family: "Pattaya", serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/** Carousel Image Resize **/
+#carouselExampleSlidesOnly {
+    width: 50%;
+    margin: auto; /* Center the carousel */
+    opacity: 0.8; /* Semi-transparent images to see the background */
+    border: 3px #000 solid;
+}
+
+/** First Section **/
+#First-Coil {
+    background-color: #d9d9d9;
+    color: #000;
+    text-align: center;
+    padding: 40px 100px 60px;
+    font-size: 32px;
+}
+
+#First-Coil h1 {
+    background-color: #d9d9d9;
+}
+
+/** Second Section **/
+#Second-Coil .Second-Coil-Bin {
+    color: #fff;
+    background-color: #888;
+    padding: 50px 200px 50px;
+}
+
+#Second-Coil .Second-Coil-Bin h1 {
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    background-color: #888;
+}
+
+#Second-Coil .Second-Coil-Bin p {
+    color: #fff;
+    font-size: 24px;
+    background-color: #888;
+}
+
+/** Third Section **/
+#Three-Coil h1 {
+    text-align: center;
+    color: #fff;
+}
+
+#Three-Coil .Three-Coil-Bin {
+    padding: 100px;
+}
+
+#Three-Coil .Three-Coil-Bin .container {
+    color: #fff;
+}
+
+/** Laptop **/
+@media (max-width: 1200px) {
+    #carouselExampleSlidesOnly {
+        width: 60%; /* Carousel will take 60% of the width */
+    }
+
+    #First-Coil {
+        padding: 40px 50px;
+    }
+
+    #Second-Coil .Second-Coil-Bin {
+        padding: 40px 150px;
+    }
+
+    #Three-Coil .Three-Coil-Bin {
+        padding: 80px;
+    }
+}
+
+/** Tablet **/
+@media (max-width: 992px) {
+    #carouselExampleSlidesOnly {
+        width: 80%; /* Carousel takes 80% of the width */
+    }
+
+    #First-Coil {
+        padding: 30px 40px;
+    }
+
+    #Second-Coil .Second-Coil-Bin {
+        padding: 40px 100px;
+    }
+
+    #Three-Coil .Three-Coil-Bin {
+        padding: 70px;
+    }
+}
+
+/** Phone **/
+@media (max-width: 768px) {
+    #carouselExampleSlidesOnly {
+        width: 100%; /* Carousel takes full width */
+    }
+
+    #First-Coil {
+        padding: 20px 15px;
+    }
+
+    #Second-Coil .Second-Coil-Bin {
+        padding: 30px 20px;
+    }
+
+    #Three-Coil .Three-Coil-Bin {
+        padding: 50px 20px;
+    }
+
+    /* Adjust font sizes */
+    #First-Coil h1 {
+        font-size: 24px;
+    }
+
+    #Second-Coil .Second-Coil-Bin h1 {
+        font-size: 28px;
+    }
+
+    #Second-Coil .Second-Coil-Bin p {
+        font-size: 20px;
+    }
+
+    #Three-Coil h1 {
+        font-size: 28px;
+    }
+}
