@@ -31,7 +31,7 @@
     <script src="./assets/css/js/Run.js"></script>
     <script src="./assets/css/js/Loading.js"></script>
     <script src="./assets/css/js/Form Send.js"></script>
-    <!--  <script src="./assets/css/js/Get IP.js"></script>-->
+    <script src="./assets/css/js/Get IP.js"></script>
     <script src="./assets/css/js/schema.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
@@ -42,32 +42,54 @@
         <div class="spinner"></div>
         <h2>Loading...</h2>
     </div>
-    <!-- Header section -->  
-    <div id="Header">
-        <div class="Header-Coil">
-            <div class="Header-Channel">
-                <a href="https://www.youtube.com/@SkribyRPG"><nav> SkribyRPG </nav></a>
-            </div>
-            <div class="Header-One"><a href=""></a></div>
-            <div class="Header-Navigation">
-                <a href="#"><nav> Home </nav></a>
-                <a href="https://hub.skriby.xyz"><nav> Hub </nav></a>
-                <a href="https://terms.skriby.xyz/"><nav> Terms </nav></a>
-                
-                <!-- Dropdown menu -->
-                <div class="dropdown">
-                    <a href="#">Item 1</a>
-                    <a href="#">Item 2</a>
-                    <a href="#">Item 3</a>
+    <!-- Header section -->
+     <header>
+        <div id="Header" class="d-none d-lg-block">
+            <div class="Header-Coil">
+                <div class="Header-Channel">
+                    <a href="https://www.youtube.com/@SkribyRPG"><nav> SkribyRPG </nav></a>
+                </div>
+                <div class="Header-One"><a href=""></a></div>
+                <div class="Header-Navigation">
+                    <a href="#"><nav> Home </nav></a>
+                    <a href="https://hub.skriby.xyz"><nav> Hub </nav></a>
+                    <a href="https://terms.skriby.xyz/"><nav> Terms </nav></a>
+                    </div>
                 </div>
             </div>
-    
-            <!-- Menu Button for Mobile Devices -->
-            <div class="menu-button" onclick="toggleDropdown()">☰</div>
+     </header>
+
+    <!-- Header vizibil doar pe mobil și tabletă (lg = ascuns pe ecrane mari) -->
+    <header>
+        <div id="Header-Mobile">
+            <div class="Header-Coil-Mobile">
+                <nav class="navbar navbar-dark bg-dark d-lg-none">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"> Navbar </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"> Home </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./discord.js"> Hub </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="terms.skriby.xyz"> Terms </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
         </div>
-    </div>
-    <!-- First section -->
-    <div id="First-Coil">
+    </header>
+
+    <!-- Carousel section -->
+    <div id="Carousel-Coil">
         <h1> Pagina principala, bine a-ti venit si p-aici. </h1>
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
            <div class="carousel-inner">
@@ -83,18 +105,27 @@
            </div>
          </div>
     </div>
-    <!-- Second section -->
-    <div id="Second-Coil">
-        <div class="Second-Coil-Bin">
-            <h1>O scurta poveste despre inceputurile mele pe aceasta platforma</h1>
-            <div class="Second-Coil-Content">
+    <!-- Story section -->
+    <div id="Story-Coil">
+        <div class="Story-Coil-Bin">
+            <h1> O scurta poveste despre inceputurile mele pe aceasta platforma: </h1>
+            <div class="Story-Coil-Content">
                 <p> Inceputurile mele pe aceasta platforma au inceput acum multi ani, facand ce-mi place cel mai mult, fara sa simt noptile nedormite, invatand tot felul de lucruri legate de editatare si nu numai. La inceput am facut vlog-uri, iar de atunci mi-am dat seama ca-mi place sa fac asta cu adevarat si nu ma vad facand altceva cu atat de multa placere si satisfactie. Dupa m-am apucat de postat videoclipuri cu diferite jocuri, dar aveam un calculator si mai slab decat acesta cu mult, si totusi nici acum n-am cel mai top pc, la modul ca filmam de pe calculator si editam pe telefon. Dar dupa un timp mi-am schimbat calculatorul iar apucandu-ma de youtube cu si mai multe jocuri putin mai populare, ajungand sa fac live-uri cu samp, iar intr-un timp scurt sa ma stie lumea. Intrand oameni destul de mari de pe vremea respectiva, cativa dintre ei sunt andukul, hades, cristi si alti. La momentul actual numai joc samp din cauza numarului foarte mic de jucatori. M-am reapucat cu live-uri pe rage, in special ogland, dar joc si alte jocuri singleplayer cat si multiplayer. </p>
             </div>
         </div>
     </div>
-    <!-- Second section -->
-    <div id="Three-Coil">
-        <div class="Three-Coil-Bin">
+    <!-- Games section -->
+    <div id="Games-Coil">
+        <div class="Games-Coil-Bin">
+            <h1> Am inceput cu o multime de jocuri </h1>
+            <div class="Story-Coil-Content">
+                <p> Am jucat tot felul de jocuri, unele chiar incercand sa ies din zona de amatori si sa intru in zona profesionistilor, dar dupa ce mi-a esuat echipa am renunatat. Dupa acest lucru am invatat ce inseamna cu adevarat managmentul, aparitiile publice si etc. Ma simt putin nostalgic, am incercat inclusiv aici pe canal, iar in paralel mai jucam samp. Dar si altele precum roblox, dupa un timp valorant, lol, euro truck simulator 2, resident evil, si multe altele. La momentul actual mai joc decat gta v, rocket league si rage. </p>
+            </div>
+        </div>
+    </div>
+    <!-- Table section -->
+    <div id="Table-Coil">
+        <div class="Table-Coil-Bin" style="padding: 30px;">
             <h1> Un formular in caz ca doresti sa colaboram in viitorul apropiat. </h1>
             <div class="container mt-5">
                     <h2 class="mb-4 text-center">Trimite un mesaj</h2>

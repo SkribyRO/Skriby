@@ -20,7 +20,7 @@ body {
 }
 
 /** First Section **/
-#First-Coil {
+#Carousel-Coil {
     background-color: #d9d9d9;
     color: #000;
     text-align: center;
@@ -28,41 +28,59 @@ body {
     font-size: 32px;
 }
 
-#First-Coil h1 {
+#Carousel-Coil h1 {
     background-color: #d9d9d9;
 }
 
-/** Second Section **/
-#Second-Coil .Second-Coil-Bin {
-    color: #fff;
+/** Story Section **/
+#Story-Coil .Story-Coil-Bin {
     background-color: #888;
     padding: 50px 200px 50px;
 }
 
-#Second-Coil .Second-Coil-Bin h1 {
+#Story-Coil .Story-Coil-Bin h1 {
     color: #fff;
     font-size: 32px;
     text-align: center;
     background-color: #888;
 }
 
-#Second-Coil .Second-Coil-Bin p {
+#Story-Coil .Story-Coil-Bin p {
     color: #fff;
     font-size: 24px;
     background-color: #888;
 }
 
-/** Third Section **/
-#Three-Coil h1 {
+/** Games Section **/
+#Games-Coil .Games-Coil-Bin {
+    background-color: #d9d9d9;
+    padding: 50px 200px 50px;
+}
+
+#Games-Coil .Games-Coil-Bin h1 {
+    color: #000;
+    font-size: 32px;
+    text-align: center;
+    background-color: #d9d9d9;
+}
+
+#Games-Coil .Games-Coil-Bin p {
+    color: #000;
+    font-size: 24px;
+    background-color: #d9d9d9;
+}
+
+/** Table Section **/
+#Table-Coil h1 {
     text-align: center;
     color: #fff;
 }
 
-#Three-Coil .Three-Coil-Bin {
+#Table-Coil .Three-Coil-Bin {
     padding: 100px;
 }
 
-#Three-Coil .Three-Coil-Bin .container {
+#Table-Coil .Three-Coil-Bin .container {
     color: #fff;
 }
 
@@ -72,15 +90,19 @@ body {
         width: 60%; /* Carousel will take 60% of the width */
     }
 
-    #First-Coil {
+    #Carousel-Coil {
         padding: 40px 50px;
     }
 
-    #Second-Coil .Second-Coil-Bin {
+    #Story-Coil .Story-Coil-Bin {
         padding: 40px 150px;
     }
 
-    #Three-Coil .Three-Coil-Bin {
+    #Games-Coil .Games-Coil-Bin {
+        padding: 40px 150px;
+    }
+
+    #Table-Coil .Table-Coil-Bin {
         padding: 80px;
     }
 }
@@ -91,15 +113,19 @@ body {
         width: 80%; /* Carousel takes 80% of the width */
     }
 
-    #First-Coil {
+    #Carousel-Coil {
         padding: 30px 40px;
     }
 
-    #Second-Coil .Second-Coil-Bin {
+    #Story-Coil .Story-Coil-Bin {
         padding: 40px 100px;
     }
 
-    #Three-Coil .Three-Coil-Bin {
+    #Games-Coil .Games-Coil-Bin {
+        padding: 40px 100px;
+    }
+
+    #Table-Coil .Table-Coil-Bin {
         padding: 70px;
     }
 }
@@ -110,32 +136,44 @@ body {
         width: 100%; /* Carousel takes full width */
     }
 
-    #First-Coil {
+    #Carousel-Coil {
         padding: 20px 15px;
     }
 
-    #Second-Coil .Second-Coil-Bin {
+    #Story-Coil .Story-Coil-Bin {
         padding: 30px 20px;
     }
 
-    #Three-Coil .Three-Coil-Bin {
+    #Games-Coil .Games-Coil-Bin {
+        padding: 30px 20px;
+    }
+
+    #Table-Coil .Table-Coil-Bin {
         padding: 50px 20px;
     }
 
     /* Adjust font sizes */
-    #First-Coil h1 {
+    #Carousel-Coil h1 {
         font-size: 24px;
     }
 
-    #Second-Coil .Second-Coil-Bin h1 {
+    #Story-Coil .Story-Coil-Bin h1 {
         font-size: 28px;
     }
 
-    #Second-Coil .Second-Coil-Bin p {
+    #Story-Coil .Story-Coil-Bin p {
         font-size: 20px;
     }
 
-    #Three-Coil h1 {
+    #Games-Coil .Story-Coil-Bin h1 {
+        font-size: 28px;
+    }
+
+    #Games-Coil .Story-Coil-Bin p {
+        font-size: 20px;
+    }
+
+    #Table-Coil h1 {
         font-size: 28px;
     }
 }
